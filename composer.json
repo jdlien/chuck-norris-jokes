@@ -1,0 +1,25 @@
+{
+    "name": "jdlien/chuck-norris-jokes",
+    "description": "Returns random Chuck Norris jokes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jdlien\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jdlien\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JD Lien",
+            "email": "jd@jdlien.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
