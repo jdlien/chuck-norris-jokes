@@ -5,6 +5,11 @@ php:
     - 8.0
     - 8.1
 
+env:
+    matrix:
+        - COMPOSER_FLAGS="--prefer-lowest"
+        - COMPOSER_FLAGS=""
+
 before_script:
     - travis_retry composer update
     - composer install
